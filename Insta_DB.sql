@@ -1,0 +1,14 @@
+CREATE TABLE Insta(
+    user_id SERIAL PRIMARY KEY,
+	name VARCHAR(50),
+	post INT NOT NULL,
+	followers INT NOT NULL,
+	following INT NOT NULL
+);
+INSERT INTO Insta VALUES(001,'Sourabh Shiroti',39,484,562);
+INSERT INTO Insta VALUES(455,'Bob',129,864,262);
+INSERT INTO Insta VALUES(921,'Casey',99,44,562);
+INSERT INTO Insta VALUES(411,'Donald',931,424,662);
+
+
+SELECT * FROM Insta;
